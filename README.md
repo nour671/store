@@ -42,14 +42,7 @@ Visit: `http://localhost:4200/`
 
 ---
 
-## 👩‍💻 Author
 
-- **Nour Shawky**
-- [GitHub Profile](https://github.com/nour671)
+🙋‍♀️ Author
+Built with ❤️ by Noura Shawky
 
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
- 
