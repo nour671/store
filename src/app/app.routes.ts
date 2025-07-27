@@ -26,10 +26,8 @@ export const routes: Routes = [
       {path:'products',loadComponent:()=>import("./pages/products/products.component").then((c)=>c.ProductsComponent) ,title:'products'},
       {path:'details/:id',loadComponent:()=>import("./pages//details/details.component").then((c)=>c.DetailsComponent) ,title:'details' },
       {path: 'login',loadComponent: () => import('./pages/login/login.component').then(c => c.LoginComponent),title: 'Login'},
-
     ]
   },
-
   {
     path: '',
     component: AuthLayoutComponent,

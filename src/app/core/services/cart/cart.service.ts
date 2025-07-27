@@ -67,6 +67,5 @@ updateCartQuantity(cart: any, productId: number, newQuantity: number): Observabl
   };
   return this.httpClient.put(`${environment.baseUrl}/carts/${cart.id}`, body);
 }
-
 }
 

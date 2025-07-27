@@ -45,7 +45,7 @@ export class CartComponent implements OnInit {
     const number = 1;
     this.cartService.getLoggedUserCart(userId ,number).subscribe({
       next: (res) => {
-        console.log("kkkkkkkk",res);
+        console.log(res);
         this.cartDetails = {} as ICart;
         this.cartDetails = res;
       },
